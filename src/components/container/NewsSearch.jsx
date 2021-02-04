@@ -22,11 +22,11 @@ export default class NewsSearch extends Component {
     }
 
     render() {
-      const { articles, loading } = this.state;
+      const { articles, loading, search } = this.state;
 
       return (
         <>
-          <Search onChange={this.handleChange}/>
+          <Search search={search} onChange={this.handleChange}/>
           {!loading ? <Articles articles={articles} />
             : <h1>Loading...</h1>
           }

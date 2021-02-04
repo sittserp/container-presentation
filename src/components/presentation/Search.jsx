@@ -8,6 +8,7 @@ const Search = ({ search, onChange }) => (
       id="search"
       name="search"
       type="text"
+      placeholder="Search Here"
       value={search}
       onChange={onChange} />
   </>

@@ -1,11 +1,12 @@
 import React from 'react';
-// import Article from '../../presentation/Article';
+import NewsSearch from '../container/NewsSearch';
+import Search from '../presentation/Search';
 
 export default class App extends React.Component {
   render() {
     return (
       <>
-        <h1>hello</h1>
+        <NewsSearch />
       </>
     );
   }

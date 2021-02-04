@@ -10,6 +10,7 @@ const Article = ({ author, title, description, url, urlToImage }) => (
     <p>{description}</p>
     <p>{url}</p>
   </>
+  
 );
 
 Article.propTypes = {
